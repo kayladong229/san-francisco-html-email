@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 
-<title></title>
+<title>San Francisco Email Sample</title>
 
 <style type="text/css">
     /* CLIENT-SPECIFIC STYLES */
@@ -16,6 +16,41 @@
     body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
     table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
     img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    @media (max-width: 480px) {
+      * {
+        box-sizing: border-box;
+      }
+
+      table, tr, td {
+        width: 100%;
+        display: block;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .social-icons {
+        width: 30px;
+      }
+
+      .displaynone {
+        display: none;
+      }
+    }
+
+  @media(min-width: 481px) {
+    .hero-img {
+      width: 740px;
+      height: 378px;
+    }
+
+    .landmark-img {
+      width: 220px;
+      height: 138px;
+    }
+  }
 
 </style>
 
@@ -30,10 +65,10 @@
             <td>
               <table width="800" border="0" cellspacing="0" cellpadding="10">
                 <tr>
-                	<td width="212">
+                	<td class="displaynone" width="212">
                    <!--SKILLSHARE: Place your logo in here-->
                   </td>
-                  <td width="137"></td>
+                  <td class="displaynone" width="137"></td>
                   <td width="200" style="align: right; font-family:Arial, Helvetica, sans-serif; color:#25272e; font-size:11px; text-align:right;">
                     <!--SKILLSHARE: Replace the URL with the "View in Browser" URL provided by your email marketing service-->
                     <span style="font-family:Arial, Helvetica, sans-serif; color:#25272e; font-size:11px;"><a style="color: #25272e;" href="#">View in Browser</a></span>
@@ -57,7 +92,7 @@
                           <tr>
                             <td width="740" valign="top">
                                 <a href="https://www.sftravel.com/">
-                                    <img src="images/email-hero.png" alt="Discover San Francisco" border="0" style="width:740px; height: 378px;">
+                                    <img class="hero-img" src="images/email-hero.png" alt="Discover San Francisco" border="0">
                                 </a>
                                 <br><br><br>
                                 <span style="font-family: Arial, Helvetica, sans-serif; color: #25272e; font-size:30pt; line-height: 140%">
@@ -80,7 +115,7 @@
                                 <table cellpadding="10px"> <!-- begin first nested table -->
                                     <tr>
                                         <td>
-                                            <img src="images/GoldenGateBridge-001.png" alt="Golden Gate Bridge" style="width: 220px; height: 138px">
+                                            <img class="landmark-img" src="images/GoldenGateBridge-001.png" alt="Golden Gate Bridge">
                                             <br><br>
                                             <span style="font-family: Arial, Helvetica, sans-serif; color: #25272e; font-size:16pt; line-height: 140%">
                                                 Golden Gate Bridge
@@ -95,7 +130,7 @@
                                             </span>
                                         </td>
                                         <td>
-                                            <img src="images/Painted-Ladies-San-Francisco-01.png" alt="Painted Ladies" style="width: 220px; height: 138px">
+                                            <img class="landmark-img" src="images/Painted-Ladies-San-Francisco-01.png" alt="Painted Ladies">
                                             <br><br>
                                             <span style="font-family: Arial, Helvetica, sans-serif; color: #25272e; font-size:16pt; line-height: 140%">
                                                 The Painted Ladies
@@ -110,7 +145,7 @@
                                             </span>
                                         </td>
                                         <td>
-                                            <img src="images/Pier_39_in_2021.jpg" alt="Pier 39" style="width: 220px; height: 138px">
+                                            <img class="landmark-img" src="images/Pier_39_in_2021.jpg" alt="Pier 39">
                                             <br><br>
                                             <span style="font-family: Arial, Helvetica, sans-serif; color: #25272e; font-size:16pt; line-height: 140%">
                                                 Pier 39
@@ -133,7 +168,7 @@
                                 <table cellpadding="10px"> <!-- begin second nested table -->
                                     <tr>
                                         <td>
-                                            <img src="images/Twin_Peaks_2022_Aerial.png" alt="Twin Peaks" style="width: 220px; height: 138px">
+                                            <img class="landmark-img" src="images/Twin_Peaks_2022_Aerial.png" alt="Twin Peaks">
                                         </td>
                                         <td>
                                             <span style="font-family: Arial, Helvetica, sans-serif; color: #25272e; font-size:16pt; line-height: 140%">
@@ -194,7 +229,7 @@
                                      <!-- <a href="https://dribbble.com/venessabaez"><img border="0" src="images/icon-dribbble.png"></a>
                                      <a href="http://behance.net/venessabaez"><img border="0" src="images/icon-behance.png"></a>
                                      <a href="https://twitter.com/venessabaez"><img border="0" src="images/icon-twitter.png"></a> -->
-                                     <a href="https://www.linkedin.com/in/kaylamd/"><img border="0" src="images/icon-linkedin.png"></a>
+                                     <a href="https://www.linkedin.com/in/kaylamd/"><img class="social-icons" border="0" src="images/icon-linkedin.png"></a>
                                      <!-- <a href="https://instagram.com/venessabaez"><img border="0" src="images/icon-instagram.png"></a> -->
                                      
                                    </td>

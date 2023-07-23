@@ -1,6 +1,6 @@
 # san-francisco-html-email
 
-HTML email template practice. Created based on the Intro to HTML Email Development course on Skillshare.
+HTML email template practice featuring responsive design. Created based on the Intro to HTML Email Development and Responsive HTML Email Development courses on Skillshare by <a href=https://www.skillshare.com/en/user/venessabaez>Venessa Baez</a>.
 
 To view the full template, visit https://kayladong229.github.io/san-francisco-html-email/.
 
